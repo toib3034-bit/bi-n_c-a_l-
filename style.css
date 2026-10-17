@@ -1,0 +1,223 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+	color: #343a40;
+	background: #f7f7fb;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.navbar {
+	min-height: 40px;
+	padding: 0;
+}
+.navbar-brand {
+	font-size: 14px;
+}
+.navbar .nav-link {
+	padding: 0.65rem 0.45rem;
+	font-size: 11px;
+}
+.navbar-toggler {
+	padding: 0.2rem 0.45rem;
+	font-size: 0.85rem;
+}
+.hero-section {
+	min-height: 278px;
+	padding: 2rem 1rem;
+	background:
+		linear-gradient(rgba(4, 39, 66, 0.28), rgba(4, 39, 66, 0.32)),
+		url("./anh%20cua%20lo/background1.jpg") center 52% / cover no-repeat;
+}
+.hero-section h1 {
+	font-size: 2.75rem;
+}
+.hero-section p {
+	max-width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 12px;
+}
+.hero-section .btn {
+	padding: 0.4rem 0.7rem;
+	font-size: 12px;
+}
+.features-section,
+.destinations-section,
+.food-section {
+	padding: 28px 0;
+}
+.features-section,
+.food-section {
+	background: #f7f7fb;
+}
+.destinations-section {
+	padding: 12px 0 4px;
+	background: #fff;
+}
+.feature-item {
+	padding: 15px 14px;
+	border: 1px solid #eceef2;
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(26, 40, 60, 0.07);
+}
+.feature-icon {
+	margin-bottom: 10px;
+	font-size: 31px;
+}
+.feature-icon--sun {
+	color: #f5ce35;
+}
+.feature-icon--seafood {
+	color: #74c0fc;
+}
+.feature-icon--island {
+	color: #55d6b2;
+}
+.feature-item h2 {
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.feature-item p,
+.section-heading p {
+	color: #6c757d;
+	font-size: 11px;
+	line-height: 1.55;
+}
+.section-heading {
+	margin-bottom: 12px;
+}
+.section-heading h2 {
+	margin-bottom: 3px;
+	font-size: 21px;
+}
+.destination-card {
+	overflow: hidden;
+	border-color: #e5e7eb;
+	border-radius: 4px;
+	box-shadow: 0 1px 2px rgba(26, 40, 60, 0.06);
+}
+.card-img-custom {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+}
+.destination-card .card-body {
+	padding: 9px 10px;
+}
+.destination-card .card-title {
+	margin-bottom: 4px;
+	font-size: 13px;
+}
+.destination-card .card-text {
+	min-height: 34px;
+	margin-bottom: 7px;
+	font-size: 11px;
+	line-height: 1.45;
+}
+.destination-card .badge {
+	font-size: 9px;
+	font-weight: 500;
+}
+.food-section {
+	padding-top: 24px;
+	padding-bottom: 20px;
+}
+.food-image {
+	display: block;
+	width: 100%;
+	height: 248px;
+	border-radius: 4px;
+	object-fit: cover;
+	box-shadow: 0 2px 8px rgba(26, 40, 60, 0.12);
+}
+.food-list {
+	padding-left: 12px;
+}
+.food-item + .food-item {
+	margin-top: 12px;
+}
+.food-item h3 {
+	margin-bottom: 4px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.food-item h3 i {
+	margin-right: 7px;
+	color: #20ad83;
+	font-size: 13px;
+}
+.food-item p {
+	margin: 0 0 0 20px;
+	color: #6c757d;
+	font-size: 11px;
+	line-height: 1.5;
+}
+.site-footer {
+	padding: 14px 0 12px;
+	border-top: 9px solid #fff;
+	background: #20242a;
+	color: #e5e7eb;
+}
+.site-footer h2 {
+	margin-bottom: 6px;
+	font-size: 13px;
+	font-weight: 700;
+}
+.site-footer p,
+.site-footer a:not(.btn) {
+	margin-bottom: 2px;
+	color: #d5d8dc;
+	font-size: 11px;
+	line-height: 1.5;
+}
+.site-footer .col-md-4:nth-child(2) a {
+	display: block;
+	text-decoration: none;
+}
+.social-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+}
+.social-links .btn {
+	padding: 0.2rem 0.45rem;
+	border-radius: 14px;
+	font-size: 10px;
+}
+@media (max-width: 767.98px) {
+	.navbar .nav-link {
+		padding: 0.5rem 0;
+	}
+	.hero-section {
+		min-height: 250px;
+	}
+	.hero-section h1 {
+		font-size: 2rem;
+	}
+	.feature-item {
+		min-height: 0;
+	}
+	.card-img-custom {
+		height: 190px;
+	}
+	.food-image {
+		height: auto;
+		max-height: 320px;
+	}
+	.food-list {
+		padding-left: calc(var(--bs-gutter-x) * 0.5);
+	}
+	.site-footer .col-md-4 + .col-md-4 {
+		margin-top: 8px;
+	}
+}
+@media (max-width: 420px) {
+	.hero-section h1 {
+		font-size: 1.75rem;
+	}
+	.hero-section p {
+		font-size: 11px;
+	}
+}
